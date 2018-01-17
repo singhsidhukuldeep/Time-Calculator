@@ -7,7 +7,7 @@ A small web app that calculates how much time you’ve spent watching TV shows. 
 ## Forking / Using the project yourself
 If you’re gonna use this project, please change the Trakt API key in the JavaScript file to your own API key. You can get one by signing up here: [https://trakt.tv/join](https://trakt.tv/join) and then going to the [API docs](https://trakt.tv/api-docs/authentication).
 
-The exact file you need to change with your own API key is [/scripts/partials/tv_show.js](https://github.com/singhsidhukuldeep/Time-Calculator/blob/master/scripts/partials/_tv-show.js), line #33, but you’ll also want to compile a new minified app.min.js file (that’s the JS file that gets referenced in [the HTML, line 101](https://github.com/singhsidhukuldeep/Time-Calculator/blob/master/index.html#L101)) and replace the old one.
+The exact file you need to change with your own API key is [/scripts/partials/tv_show.js](https://github.com/singhsidhukuldeep/Time-Calculator/blob/master/time/scripts/partials/_tv-show.js), line #33, but you’ll also want to compile a new minified app.min.js file (that’s the JS file that gets referenced in [the HTML, line 101](https://github.com/singhsidhukuldeep/Time-Calculator/blob/master/time/index.html#L101)) and replace the old one.
 
 ## License
 All demos found in this repo are licensed under the MIT License.
